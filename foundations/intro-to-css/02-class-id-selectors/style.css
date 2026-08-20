@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+.same{
+    background-color: rgb(250, 154, 170);
+    font-family:  Verdana,"DejaVu Sans", sans-serif;
+}
+#unique-1{
+    color: rgb(17, 17, 245);
+    font-size: 36px;
+}
+.butdifferent, #unique-2{
+    font-size: 24px;
+}
+#unique-2{
+    background-color: rgb(150, 243, 150);
+    font-weight: bold;
+}
