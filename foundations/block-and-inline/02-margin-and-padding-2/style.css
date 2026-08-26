@@ -1,4 +1,4 @@
-body {
+/* body {
   background: gray;
   font-family: sans-serif;
 }
@@ -17,4 +17,45 @@ body {
 
 button {
   background: white;
+} */
+
+body {
+  background: gray;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: white;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.title,
+.content,
+.button-container {
+  background: dodgerblue;
+  font-size: 16px;
+}
+
+button {
+  background: white;
+  padding: 8px 24px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container{
+  text-align: center;
+  padding: 8px;
+  margin-top: 8px;
+}
+.title{
+  padding: 8px;
+  margin-bottom: 8px;
+
+}
+.content{
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
